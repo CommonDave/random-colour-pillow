@@ -13,4 +13,4 @@ colour = str(red) + ", " + str(green) + ", " + str(blue)
 
 #img = Image.new('RGB', (width, height))
 img = Image.new('RGB', (width, height), (red, green, blue))
-img.save(name + '.jpg')
+img.save(str(name) + '.jpg')
